@@ -121,7 +121,7 @@ social:
 # Sections shown in the index page
 pages_list:
   About: "about"
-  Skills: "latest-post"
+  Skills: "blog"
   #Timeline: "timeline"
   Contact: "contact"
 # Exclusion list from the generated _site
