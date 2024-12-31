@@ -26,10 +26,10 @@ author: "Xuhao Ni"
 # Dynamic Text on the Header #
 ##############################
 
-quote: "Hi, I'm Xuhao Ni! 😊"
+quotes:
+  - "Hi, I'm Xuhao Ni! 😊"
+  - "Welcome to my personal page！"
 me-img: "/img/me.png"
-
-quote2: "Welcome to my personal page！"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
@@ -84,6 +84,24 @@ disqus-shortname: "personal-jekyll-theme"
 # Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
 #pgp: False
 
+##################
+# Social Buttons #
+##################
+
+social:
+  - icon: "envelope"
+    url: "mailto:x23ni@uwaterloo.ca"
+  - icon: "github"
+    url: "https://github.com/Nxh12345"
+  - icon: "linkedin-in"
+    url: "https://www.linkedin.com/in/xuhao-ni/"
+
+  #- icon: "x-twitter"
+  #  url: "https://twitter.com/"
+  #- icon: "rss"
+  #  url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
+
+
 ################
 # Author Blurb #
 ################
@@ -97,22 +115,7 @@ disqus-shortname: "personal-jekyll-theme"
 # engineering projects. In his spare time, John likes to eat cotton candy."
 #author_blurb_image: "/img/author.png"
 
-##################
-# Social Buttons #
-##################
-
-social:
-  - icon: "envelope"
-    url: "x23ni@uwaterloo.ca"
-  - icon: "github"
-    url: "https://github.com/Nxh12345"
-  - icon: "linkedin-in"
-    url: "https://www.linkedin.com/in/xuhao-ni/"
-
-  #- icon: "x-twitter"
-  #  url: "https://twitter.com/"
-  #- icon: "rss"
-  #  url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
+############################################################
 
 # NB! Tread carefully if you want to change the variables below this point!
 
