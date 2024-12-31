@@ -11,15 +11,8 @@
     data-target=".navbar-fixed-top"
     data-offset="151"
   >
-    {% include navigation.html %} 
-
+    {% include navigation.html %}
     {% include header.html %}
-    
-    <div class="quotes">
-      {% for quote in site.quotes %}
-      <p>{{ quote }}</p>
-      {% endfor %}
-    </div>
 
     {% for p in site.pages_list %} 
       {% for page in site.pages %} 

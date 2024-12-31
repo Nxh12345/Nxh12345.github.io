@@ -26,10 +26,9 @@ author: "Xuhao Ni"
 # Dynamic Text on the Header #
 ##############################
 
-quotes:
-  - "Hi, I'm Xuhao Ni! 😊"
-  - "Welcome to my personal page！"
+quote: "Hi, I'm Xuhao Ni! 😊"
 me-img: "/img/me.png"
+quote1: "Welcome to my personal page！"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
