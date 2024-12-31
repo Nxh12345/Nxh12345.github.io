@@ -15,7 +15,7 @@ author: "Xuhao Ni"
 #title: "{ John Smith }"
 #description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
 #keywords: "smith, jones, personal, jekyll, theme"
-favicon: "/img/favicon.ico"
+#favicon: "/img/favicon.ico"
 ################
 # Header layout#
 ################
@@ -80,9 +80,9 @@ disqus-shortname: "personal-jekyll-theme"
 # Contact #
 ###########
 
-email: "x23ni@uwaterloo.ca"
+#email: "x23ni@uwaterloo.ca"
 # Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
-pgp: False
+#pgp: False
 
 ################
 # Author Blurb #
@@ -92,32 +92,35 @@ pgp: False
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb:
-  "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional
-  engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+#author_blurb:
+#  "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional
+# engineering projects. In his spare time, John likes to eat cotton candy."
+#author_blurb_image: "/img/author.png"
 
 ##################
 # Social Buttons #
 ##################
 
 social:
+  - icon: "envelope"
+    url: "x23ni@uwaterloo.ca"
   - icon: "github"
-    url: "https://github.com/le4ker/personal-jekyll-theme"
+    url: "https://github.com/Nxh12345"
   - icon: "linkedin-in"
-    url: "https://www.linkedin.com"
-  - icon: "x-twitter"
-    url: "https://twitter.com/"
-  - icon: "rss"
-    url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
+    url: "https://www.linkedin.com/in/xuhao-ni/"
+
+  #- icon: "x-twitter"
+  #  url: "https://twitter.com/"
+  #- icon: "rss"
+  #  url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
 
 # NB! Tread carefully if you want to change the variables below this point!
 
 # Sections shown in the index page
 pages_list:
   About: "about"
-  Blog: "latest-post"
-  Timeline: "timeline"
+  Skills: "latest-post"
+  #Timeline: "timeline"
   Contact: "contact"
 # Exclusion list from the generated _site
 exclude:
