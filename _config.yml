@@ -4,7 +4,7 @@
 url: "https://le4ker.github.io/personal-jekyll-theme"
 
 # Google tracking id
-#google-tracking-id: "UA-XXXXXXXX-X"
+google-tracking-id: "UA-XXXXXXXX-X"
 
 #############
 # HTML Head #
@@ -12,7 +12,7 @@ url: "https://le4ker.github.io/personal-jekyll-theme"
 
 lang: "en"
 author: "Xuhao Ni"
-title: ""
+#title: "Xuhao Ni"
 #description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
 #keywords: "smith, jones, personal, jekyll, theme"
 #favicon: "/img/favicon.ico"
