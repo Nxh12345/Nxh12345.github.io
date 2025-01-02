@@ -4,6 +4,19 @@
   id="{{ page.section-type }}"
   class="container content-section text-center"
 >
+  <div class="row align-items-center">
+    <!-- 左侧：文字内容 -->
+    <div class="col-md-6 text-left">
+      {{ page.content | markdownify }}
+    </div>
+    <!-- 右侧：图片 -->
+    <div class="col-md-6 text-center">
+      <img src="{{ page.image }}" alt="About Me Image" class="img-fluid rounded" />
+    </div>
+  </div>
+
+
+
   <div class="row justify-content-center">
     <div class="col-12">{{ page.content | markdownify }}</div>
   </div>
