@@ -27,7 +27,8 @@ author: "Xuhao Ni"
 ##############################
 
 quote: "Hi, I'm Xuhao Ni! 😊"
-me-img: "/img/me.png"
+#me-img: "/img/me.png"
+me-video: "/img/me.mov"
 quote1: "Welcome to my personal page！"
 
 # To use github profile pic uncomment the following line and replace 'user_name'

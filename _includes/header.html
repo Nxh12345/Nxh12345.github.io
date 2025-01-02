@@ -5,14 +5,10 @@
     <span class="intro-text">{{ content }}</span>
   </div>
   <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
-    {% if site.me-img contains "https://" %}
-    <img class="img-me" src="{{ site.me-img }}" alt="" />
+    {% if site.me-video contains "https://" %}
+    <video class="video-me" src="{{ site.me-video }}" alt="" />
     {% else %}
-    <img
-      class="img-me"
-      src="{{site.baseurl}}{{ site.me-img }}"
-      alt=""
-    />
+    <video class="video-me" src="{{ site.baseurl }}{{ site.me-video }}" alt="" />
     {% endif %}
   </a>
 </header>
