@@ -578,6 +578,12 @@ body {
     line-height: 18px;
   }
 
+  .video-me {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+  }
+
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
     padding: 0 30px 20px 20px;
