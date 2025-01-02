@@ -6,9 +6,9 @@
   </div>
   <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
     {% if site.me-video contains "https://" %}
-    <video class="video-me" src="{{ site.me-video }}" alt="" />
+    <video class="video-me" src="{{ site.me-video }}" controls autoplay loop></video>
     {% else %}
-    <video class="video-me" src="{{ site.baseurl }}{{ site.me-video }}" alt="" />
+    <video class="video-me" src="{{ site.baseurl }}{{ site.me-video }}" controls autoplay loop></video>
     {% endif %}
   </a>
 </header>
