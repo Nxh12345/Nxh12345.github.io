@@ -1,10 +1,10 @@
 # Site settings
 
 # NB! Set your site's url, otherwise nothing will work
-# url: "https://le4ker.github.io/personal-jekyll-theme"
+url: "https://le4ker.github.io/personal-jekyll-theme"
 
 # Google tracking id
-# google-tracking-id: "UA-XXXXXXXX-X"
+#google-tracking-id: "UA-XXXXXXXX-X"
 
 #############
 # HTML Head #
@@ -12,7 +12,7 @@
 
 lang: "en"
 author: "Xuhao Ni"
-#title: "{ John Smith }"
+title: ""
 #description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
 #keywords: "smith, jones, personal, jekyll, theme"
 #favicon: "/img/favicon.ico"
